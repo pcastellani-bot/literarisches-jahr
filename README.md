@@ -21,6 +21,22 @@ docs/index.html                ← Startseite mit beidem
 Alles unter `docs/` wird bei jedem Lauf **neu erzeugt**. Ändere dort nichts von
 Hand, es wird beim nächsten Bauen überschrieben.
 
+## Ein Veranstalter meldet einen Termin
+
+```
+python3 eintragen.py
+```
+
+Fragt alles ab, baut die Zeile, prüft sie und baut den Kalender neu.
+Danach veröffentlichen:
+
+```
+git add -A && git commit -m "Termin: ..." && git push
+```
+
+Die Adresse, an die Meldungen gehen, steht in `bauteile/w_js2.html` ganz oben
+unter `meldeAdresse`.
+
 ## Einen Termin von Hand nachtragen
 
 1. Oben auf `termine.csv` klicken, dann auf das Stiftsymbol

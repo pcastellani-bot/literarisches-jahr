@@ -104,6 +104,9 @@ body{background:var(--grund);color:var(--tinte);font-family:var(--sans);
 .lj-mail .danke{font-size:13px;color:var(--gruen);font-weight:500;margin:0}
 .lj-mail .klein{font-size:11px;color:var(--still);margin:7px 0 0}
 
+.lj-melden{flex:none;margin:8px 0 0;font-size:12.5px;color:var(--leise)}
+.lj-melden a{color:var(--blau);text-decoration:none;border-bottom:1px solid transparent}
+.lj-melden a:hover{border-bottom-color:var(--blau)}
 .lj-leer{padding:40px 0;text-align:center;color:var(--still);font-size:14px}
 .lj-fuss{flex:none;padding:10px 0 14px;border-top:1px solid var(--kante);
   font-size:11.5px;color:var(--still);display:flex;justify-content:space-between;
@@ -158,6 +161,8 @@ body{background:var(--grund);color:var(--tinte);font-family:var(--sans);
     <p class="klein">Wir verwenden deine Adresse nur für diese Übersicht.</p>
   </div>
 
+  <p class="lj-melden" id="lj-melden"></p>
+
   <div class="lj-fuss">
     <span id="lj-stand">Angaben ohne Gewähr. Termine bitte beim Veranstalter prüfen.</span>
     <a href="https://salonderkuenste.com/schreibjahr-2027">Das Schreibjahr 2027</a>
@@ -178,6 +183,8 @@ const KONFIG={
   anmeldeZiel:"",
   anmeldeSeite:"https://salonderkuenste.com/schreibjahr-2027",
   stand:"13. September 2026",
+  // Adresse fuer Veranstalter, die ihre Termine melden. Hier aendern.
+  meldeAdresse:"kalender@salonderkuenste.com",
   // Vergangene Termine ausblenden. Ohne das zeigt der Kalender im Januar
   // ein halbes Jahr Vergangenheit.
   nurKommende:true
@@ -302,6 +309,12 @@ document.getElementById("lj-suche").addEventListener("input",e=>{
 
 document.getElementById("lj-stand").textContent=
   "Angaben ohne Gewähr, Stand "+KONFIG.stand+". Termine bitte beim Veranstalter prüfen.";
+const melde=document.getElementById("lj-melden");
+melde.innerHTML='Du veranstaltest Lesungen? Schick uns deine Termine: '+
+  '<a href="mailto:'+KONFIG.meldeAdresse+'?subject='+
+  encodeURIComponent("Termin für das literarische Jahr")+'&body='+
+  encodeURIComponent("Veranstaltung:\nDatum:\nOrt:\nLink:\n")+'">'+
+  KONFIG.meldeAdresse+'</a>';
 /* Der Filter erscheint erst, wenn die Zugangsdaten wirklich im Bestand sind */
 if(!TERMINE.some(z=>z.zg==="offen"))
   document.querySelector('[data-v="offen"]').remove();

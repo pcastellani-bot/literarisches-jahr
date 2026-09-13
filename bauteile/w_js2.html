@@ -12,6 +12,8 @@ const KONFIG={
   anmeldeZiel:"",
   anmeldeSeite:"https://salonderkuenste.com/schreibjahr-2027",
   stand:"13. September 2026",
+  // Adresse fuer Veranstalter, die ihre Termine melden. Hier aendern.
+  meldeAdresse:"kalender@salonderkuenste.com",
   // Vergangene Termine ausblenden. Ohne das zeigt der Kalender im Januar
   // ein halbes Jahr Vergangenheit.
   nurKommende:true
@@ -136,6 +138,12 @@ document.getElementById("lj-suche").addEventListener("input",e=>{
 
 document.getElementById("lj-stand").textContent=
   "Angaben ohne Gewähr, Stand "+KONFIG.stand+". Termine bitte beim Veranstalter prüfen.";
+const melde=document.getElementById("lj-melden");
+melde.innerHTML='Du veranstaltest Lesungen? Schick uns deine Termine: '+
+  '<a href="mailto:'+KONFIG.meldeAdresse+'?subject='+
+  encodeURIComponent("Termin für das literarische Jahr")+'&body='+
+  encodeURIComponent("Veranstaltung:\nDatum:\nOrt:\nLink:\n")+'">'+
+  KONFIG.meldeAdresse+'</a>';
 /* Der Filter erscheint erst, wenn die Zugangsdaten wirklich im Bestand sind */
 if(!TERMINE.some(z=>z.zg==="offen"))
   document.querySelector('[data-v="offen"]').remove();

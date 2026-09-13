@@ -3,17 +3,7 @@
    Einstellungen. Nur dieser Block muss angepasst werden.
    ------------------------------------------------------------------ */
 const KONFIG={
-  // Wohin die Anmeldung zur Fristen-Mail geht. Drei Möglichkeiten:
-  // 1. Leer lassen  -> die Adresse geht per postMessage an die Wix-Seite,
-  //    dort nimmt Velo sie entgegen (Code steht in EINBAU.md).
-  // 2. Eine URL     -> die Adresse wird als POST dorthin geschickt
-  //    (Formspree, Mailchimp, eigener Endpunkt).
-  // 3. Greift keines von beiden, führt der Knopf auf anmeldeSeite.
-  anmeldeZiel:"",
-  anmeldeSeite:"https://salonderkuenste.com/schreibjahr-2027",
   stand:"13. September 2026",
-  // Adresse fuer Veranstalter, die ihre Termine melden. Hier aendern.
-  meldeAdresse:"kalender@salonderkuenste.com",
   // Vergangene Termine ausblenden. Ohne das zeigt der Kalender im Januar
   // ein halbes Jahr Vergangenheit.
   nurKommende:true
@@ -110,23 +100,6 @@ function zeichnen(){
   if(window.parent!==window)window.parent.postMessage(
     {typ:"literarischesJahr",hoehe:document.body.scrollHeight},"*");}
 
-/* Fristen-Mail */
-document.getElementById("lj-form").addEventListener("submit",e=>{
-  e.preventDefault();
-  const feld=document.getElementById("lj-adresse"), adresse=feld.value.trim();
-  if(!adresse)return;
-  const fertig=()=>{document.getElementById("lj-mail").innerHTML=
-    '<h3>Danke</h3><p class="danke">Du bekommst die nächste Fristenübersicht Anfang des Monats.</p>';};
-  if(KONFIG.anmeldeZiel){
-    fetch(KONFIG.anmeldeZiel,{method:"POST",headers:{"Content-Type":"application/json"},
-      body:JSON.stringify({email:adresse,quelle:"Literarisches Jahr"})})
-      .then(fertig).catch(()=>{feld.value="";
-        alert("Das hat gerade nicht geklappt. Bitte später nochmals versuchen.");});
-  }else if(window.parent!==window){
-    window.parent.postMessage({typ:"literarischesJahr",aktion:"anmeldung",email:adresse},"*");
-    fertig();
-  }else{window.open(KONFIG.anmeldeSeite,"_blank","noopener");}
-});
 
 document.getElementById("lj-filter").addEventListener("click",e=>{
   const b=e.target.closest("button");if(!b)return;
@@ -138,12 +111,6 @@ document.getElementById("lj-suche").addEventListener("input",e=>{
 
 document.getElementById("lj-stand").textContent=
   "Angaben ohne Gewähr, Stand "+KONFIG.stand+". Termine bitte beim Veranstalter prüfen.";
-const melde=document.getElementById("lj-melden");
-melde.innerHTML='Du veranstaltest Lesungen? Schick uns deine Termine: '+
-  '<a href="mailto:'+KONFIG.meldeAdresse+'?subject='+
-  encodeURIComponent("Termin für das literarische Jahr")+'&body='+
-  encodeURIComponent("Veranstaltung:\nDatum:\nOrt:\nLink:\n")+'">'+
-  KONFIG.meldeAdresse+'</a>';
 /* Der Filter erscheint erst, wenn die Zugangsdaten wirklich im Bestand sind */
 if(!TERMINE.some(z=>z.zg==="offen"))
   document.querySelector('[data-v="offen"]').remove();

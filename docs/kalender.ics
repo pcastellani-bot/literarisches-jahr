@@ -499,9 +499,9 @@ DTSTAMP:20260913T080000Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Schreibjahr: Vorbereitungstag Schreibjahr 1
-DESCRIPTION:Kurs | https://schreibjahr.ch/vorbereitungstag | Aus dem Kalender des Salon der Kuenste
+DESCRIPTION:Kurs | https://schreibjahr.ch | Aus dem Kalender des Salon der Kuenste
 LOCATION:Olten
-URL:https://schreibjahr.ch/vorbereitungstag
+URL:https://schreibjahr.ch
 END:VEVENT
 BEGIN:VEVENT
 UID:lj-01179d74bcdd7549@salonderkuenste
@@ -589,9 +589,9 @@ DTSTAMP:20260913T080000Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Schreibjahr: Vorbereitungstag Schreibjahr 2
-DESCRIPTION:Kurs | https://schreibjahr.ch/vorbereitungstag | Aus dem Kalender des Salon der Kuenste
+DESCRIPTION:Kurs | https://schreibjahr.ch | Aus dem Kalender des Salon der Kuenste
 LOCATION:Olten
-URL:https://schreibjahr.ch/vorbereitungstag
+URL:https://schreibjahr.ch
 END:VEVENT
 BEGIN:VEVENT
 UID:lj-e95721d002bf567d@salonderkuenste
@@ -699,9 +699,9 @@ DTSTAMP:20260913T080000Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Schreibjahr: Vorbereitungstag Schreibjahr 3
-DESCRIPTION:Kurs | https://schreibjahr.ch/vorbereitungstag | Aus dem Kalender des Salon der Kuenste
+DESCRIPTION:Kurs | https://schreibjahr.ch | Aus dem Kalender des Salon der Kuenste
 LOCATION:Olten
-URL:https://schreibjahr.ch/vorbereitungstag
+URL:https://schreibjahr.ch
 END:VEVENT
 BEGIN:VEVENT
 UID:lj-52ad7897074aa7c2@salonderkuenste
@@ -749,9 +749,9 @@ DTSTAMP:20260913T080000Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:Schreibjahr: Einsendeschluss Bewerbung Schreibjahr 2027
-DESCRIPTION:Ausschreibung | Einreichfrist 2027-01-24 | https://schreibjahr.ch/bewerbung | Aus dem Kalender des Salon der Kuenste
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-01-24 | https://schreibjahr.ch | Aus dem Kalender des Salon der Kuenste
 LOCATION:Olten
-URL:https://schreibjahr.ch/bewerbung
+URL:https://schreibjahr.ch
 BEGIN:VALARM
 TRIGGER:-P14D
 ACTION:DISPLAY

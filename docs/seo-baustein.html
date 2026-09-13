@@ -10,7 +10,7 @@
      der Kalender, aendert sich das hier automatisch mit. -->
 <script>
 (function(){
-  fetch("https://pcastellani-bot.github.io/literarisches-jahr/termine.jsonld")
+  fetch("https://kalender.schreibjahr.ch/termine.jsonld")
     .then(function(a){ return a.ok ? a.json() : null; })
     .then(function(daten){
       if(!daten) return;

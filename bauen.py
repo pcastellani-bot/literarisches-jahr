@@ -16,6 +16,7 @@ import csv, json, datetime, hashlib, pathlib, sys
 HIER = pathlib.Path(__file__).parent
 HEUTE = datetime.date.today()
 QUELLE = "https://salonderkuenste.com/schreibjahr-2027"
+ADRESSE = "kalender.schreibjahr.ch"   # eigene Subdomain, verbirgt die GitHub-Herkunft
 
 # --- Was oeffentlich wird -------------------------------------------------
 BESUCH = {"Festival", "Messe", "Markt", "Reihe", "Tagung"}
@@ -172,6 +173,7 @@ def main():
     js = lies_teil("w_js2.html").replace('stand:"13. September 2026"', f'stand:"{stand}"')
 
     docs = HIER / "docs"; docs.mkdir(exist_ok=True)
+    (docs / "CNAME").write_text(ADRESSE + "\n", encoding="utf-8")
     (docs / "literarisches-jahr.html").write_text(
         '<!DOCTYPE html>\n<html lang="de">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width,initial-scale=1">\n'
@@ -183,13 +185,15 @@ def main():
     with open(docs / "kalender.ics", "w", encoding="utf-8", newline="") as f:
         f.write(kal)   # CRLF steht schon im Text, siehe RFC 5545
     (docs / "index.html").write_text(STARTSEITE.replace("{{ANZAHL}}", str(len(t)))
-        .replace("{{STAND}}", stand).replace("{{FONT}}", FONT), encoding="utf-8")
+        .replace("{{STAND}}", stand).replace("{{FONT}}", FONT)
+        .replace("{{ADRESSE}}", ADRESSE), encoding="utf-8")
 
     ld, n_ld = jsonld(t)
     # Die Daten als eigene Datei, damit der Baustein in Wix sie laden kann und
     # nie wieder angefasst werden muss.
     (docs / "termine.jsonld").write_text(ld, encoding="utf-8")
-    (docs / "seo-baustein.html").write_text(SEO_BAUSTEIN, encoding="utf-8")
+    (docs / "seo-baustein.html").write_text(
+        SEO_BAUSTEIN.replace("{{ADRESSE}}", ADRESSE), encoding="utf-8")
 
     offen = sum(1 for z in t if z.get("zg") == "offen")
     kb = (docs / "literarisches-jahr.html").stat().st_size // 1024
@@ -215,7 +219,7 @@ SEO_BAUSTEIN = '''<!-- Strukturierte Daten fuer Google.
      der Kalender, aendert sich das hier automatisch mit. -->
 <script>
 (function(){
-  fetch("https://pcastellani-bot.github.io/literarisches-jahr/termine.jsonld")
+  fetch("https://{{ADRESSE}}/termine.jsonld")
     .then(function(a){ return a.ok ? a.json() : null; })
     .then(function(daten){
       if(!daten) return;
@@ -281,13 +285,13 @@ footer a{color:var(--still)}
   <h2>In die eigene Website einbauen</h2>
   <p>Diesen Code in einen HTML-Baustein setzen, in Wix unter
     Hinzufügen, Einbetten, HTML einbetten:</p>
-  <p><code>&lt;iframe src="https://pcastellani-bot.github.io/literarisches-jahr/literarisches-jahr.html"
+  <p><code>&lt;iframe src="https://{{ADRESSE}}/literarisches-jahr.html"
     width="100%" height="800" style="border:0" title="Das literarische Jahr"&gt;&lt;/iframe&gt;</code></p>
 
   <h2>Abonnieren</h2>
   <p>Wer den Kalender im eigenen Programm haben will, abonniert diese Adresse.
     Sie aktualisiert sich von selbst:</p>
-  <p><code>webcal://pcastellani-bot.github.io/literarisches-jahr/kalender.ics</code></p>
+  <p><code>webcal://{{ADRESSE}}/kalender.ics</code></p>
 
   <iframe src="literarisches-jahr.html" title="Vorschau des Kalenders"></iframe>
 

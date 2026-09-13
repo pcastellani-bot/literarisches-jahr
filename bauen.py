@@ -186,13 +186,10 @@ def main():
         .replace("{{STAND}}", stand).replace("{{FONT}}", FONT), encoding="utf-8")
 
     ld, n_ld = jsonld(t)
-    (docs / "seo-baustein.html").write_text(
-        "<!-- Strukturierte Daten fuer Google. In Wix unter Einstellungen,\n"
-        "     Erweitert, Custom Code im <head> dieser Seite einfuegen.\n"
-        "     Bei jedem Bauen neu erzeugt, also nach groesseren Aenderungen\n"
-        "     wieder herauskopieren. -->\n"
-        '<script type="application/ld+json">\n' + ld + "\n</script>\n",
-        encoding="utf-8")
+    # Die Daten als eigene Datei, damit der Baustein in Wix sie laden kann und
+    # nie wieder angefasst werden muss.
+    (docs / "termine.jsonld").write_text(ld, encoding="utf-8")
+    (docs / "seo-baustein.html").write_text(SEO_BAUSTEIN, encoding="utf-8")
 
     offen = sum(1 for z in t if z.get("zg") == "offen")
     kb = (docs / "literarisches-jahr.html").stat().st_size // 1024
@@ -200,10 +197,37 @@ def main():
     print(f"  -> docs/literarisches-jahr.html  {len(t)} Termine, {kb} KB")
     print(f"  -> docs/kalender.ics             {n_ics} Eintraege")
     print(f"  -> docs/index.html")
-    print(f"  -> docs/seo-baustein.html        {n_ld} Veranstaltungen als schema.org/Event")
+    print(f"  -> docs/termine.jsonld           {n_ld} Veranstaltungen als schema.org/Event")
+    print(f"  -> docs/seo-baustein.html        der Baustein fuer Wix, bleibt unveraendert")
     print(f"  davon ohne Buchpublikation zugaenglich: {offen}")
     if not offen:
         print("  Hinweis: Filter 'ohne Buchpublikation' blendet sich aus, solange 0.")
+
+SEO_BAUSTEIN = '''<!-- Strukturierte Daten fuer Google.
+     Wix: Einstellungen > Erweitert > Custom Code > Code hinzufuegen
+     Name:      Literaturagenda Termine
+     Platzierung: Head
+     Seiten:    nur die Seite Literaturagenda
+     Laden:     Sofort laden
+
+     Einmal einsetzen, nie wieder anfassen. Der Baustein holt die Termine
+     bei jedem Seitenaufruf frisch von der Kalenderadresse. Aendert sich
+     der Kalender, aendert sich das hier automatisch mit. -->
+<script>
+(function(){
+  fetch("https://pcastellani-bot.github.io/literarisches-jahr/termine.jsonld")
+    .then(function(a){ return a.ok ? a.json() : null; })
+    .then(function(daten){
+      if(!daten) return;
+      var s = document.createElement("script");
+      s.type = "application/ld+json";
+      s.textContent = JSON.stringify(daten);
+      document.head.appendChild(s);
+    })
+    .catch(function(){ /* ohne strukturierte Daten laedt die Seite normal weiter */ });
+})();
+</script>
+'''
 
 STARTSEITE = '''<!DOCTYPE html>
 <html lang="de">

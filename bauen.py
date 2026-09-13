@@ -126,6 +126,37 @@ def ics(termine):
     L.append("END:VCALENDAR")
     return "\r\n".join(L), n
 
+# --- Strukturierte Daten fuer Suchmaschinen -------------------------------
+def jsonld(termine, anzahl=40):
+    """Die naechsten Veranstaltungen als schema.org/Event.
+
+    Inhalt in einem iframe zaehlt fuer Google nicht zur einbettenden Seite.
+    Dieser Block schon: Patrick setzt ihn als Code-Baustein auf die Wix-Seite,
+    dann kennt Google die Termine, obwohl sie im iframe stehen."""
+    heute = HEUTE.isoformat()
+    kommend = [z for z in termine
+               if not z.get("eig") and z["v"] >= heute
+               and z["t"] in ("Festival", "Messe", "Markt", "Tagung")][:anzahl]
+    ev = []
+    for z in kommend:
+        v = z["v"] if z["v"][-2:] != "00" else z["v"][:8] + "01"
+        e = {"@type": "Event", "name": z["n"], "startDate": v,
+             "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+             "eventStatus": "https://schema.org/EventScheduled",
+             "location": {"@type": "Place", "name": z["o"],
+                          "address": {"@type": "PostalAddress",
+                                      "addressLocality": z["o"], "addressCountry": "CH"}},
+             "url": z["u"]}
+        if z.get("b"): e["endDate"] = z["b"]
+        ev.append(e)
+    return json.dumps({"@context": "https://schema.org", "@type": "ItemList",
+        "name": "Das literarische Jahr",
+        "description": "Festivals, Messen, Lesereihen und Ausschreibungen der "
+                       "Schweizer Literaturszene. Zusammengetragen vom Salon der Kuenste.",
+        "itemListElement": [{"@type": "ListItem", "position": i, "item": e}
+                            for i, e in enumerate(ev, 1)]},
+        ensure_ascii=False, indent=2), len(ev)
+
 # --- Zusammenbauen --------------------------------------------------------
 FONT = ('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?'
         'family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&'
@@ -154,12 +185,22 @@ def main():
     (docs / "index.html").write_text(STARTSEITE.replace("{{ANZAHL}}", str(len(t)))
         .replace("{{STAND}}", stand).replace("{{FONT}}", FONT), encoding="utf-8")
 
+    ld, n_ld = jsonld(t)
+    (docs / "seo-baustein.html").write_text(
+        "<!-- Strukturierte Daten fuer Google. In Wix unter Einstellungen,\n"
+        "     Erweitert, Custom Code im <head> dieser Seite einfuegen.\n"
+        "     Bei jedem Bauen neu erzeugt, also nach groesseren Aenderungen\n"
+        "     wieder herauskopieren. -->\n"
+        '<script type="application/ld+json">\n' + ld + "\n</script>\n",
+        encoding="utf-8")
+
     offen = sum(1 for z in t if z.get("zg") == "offen")
     kb = (docs / "literarisches-jahr.html").stat().st_size // 1024
     print(f"termine.csv  {len(rows)} Zeilen")
     print(f"  -> docs/literarisches-jahr.html  {len(t)} Termine, {kb} KB")
     print(f"  -> docs/kalender.ics             {n_ics} Eintraege")
     print(f"  -> docs/index.html")
+    print(f"  -> docs/seo-baustein.html        {n_ld} Veranstaltungen als schema.org/Event")
     print(f"  davon ohne Buchpublikation zugaenglich: {offen}")
     if not offen:
         print("  Hinweis: Filter 'ohne Buchpublikation' blendet sich aus, solange 0.")

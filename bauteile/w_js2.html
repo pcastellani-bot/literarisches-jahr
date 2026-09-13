@@ -40,27 +40,26 @@ function passt(z){
     return false;
   return true;}
 
-/* Termin als .ics zum Mitnehmen */
-function merken(i){
-  const z=TERMINE[i],p=teil(z.v);
-  const j=+p[0],m=+p[1]-1,t=p[2]&&p[2]!=="00"?+p[2]:1;
-  const von=new Date(j,m,t),bis=endet(z);bis.setDate(bis.getDate()+1);
-  const st=d=>d.getFullYear()+String(d.getMonth()+1).padStart(2,"0")+String(d.getDate()).padStart(2,"0");
-  const cl=s=>String(s||"").replace(/\\/g,"\\\\").replace(/[,;]/g,x=>"\\"+x).replace(/\n/g," ");
-  const txt=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Salon der Kuenste//Literarisches Jahr//DE",
-    "BEGIN:VEVENT","UID:lj-"+i+"-"+z.v+"@salonderkuenste","DTSTAMP:"+st(HEUTE)+"T080000Z",
-    "DTSTART;VALUE=DATE:"+st(von),"DTEND;VALUE=DATE:"+st(bis),
-    "SUMMARY:"+cl(z.n),"LOCATION:"+cl(z.o),
-    "DESCRIPTION:"+cl((TYP[z.t]||z.t)+(z.f?", Einreichfrist "+fristTxt(z.f):"")+
-      (z.s!=="bestaetigt"?" (Termin noch nicht bestaetigt)":"")+" | "+z.u+
-      " | Aus dem Kalender des Salon der Kuenste"),
-    "URL:"+cl(z.u),"END:VEVENT","END:VCALENDAR"].join("\r\n");
-  const a=document.createElement("a");
-  a.href=URL.createObjectURL(new Blob([txt],{type:"text/calendar;charset=utf-8"}));
-  a.download=z.n.replace(/[^\wäöüÄÖÜ -]/g,"").slice(0,50).trim()+".ics";
-  document.body.appendChild(a);a.click();
-  setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1000);}
-window.ljMerken=merken;
+/* Termin in den eigenen Kalender. Der Download-Weg ist im eingebetteten
+   iframe gesperrt, deshalb ein Link in einen neuen Tab. */
+function gcal(z){
+  const p=teil(z.v);
+  const j=+p[0], m=+p[1]-1, t1=p[2]&&p[2]!=="00"?+p[2]:1;
+  const von=new Date(j,m,t1), bis=endet(z);
+  bis.setDate(bis.getDate()+1);
+  const st=d=>d.getFullYear()+String(d.getMonth()+1).padStart(2,"0")+
+    String(d.getDate()).padStart(2,"0");
+  const text=[(TYP[z.t]||z.t)];
+  if(z.f)text.push("Einreichfrist "+fristTxt(z.f));
+  if(z.zgt)text.push(z.zgt);
+  if(z.s!=="bestaetigt")text.push("Termin noch nicht bestätigt");
+  text.push(z.u,"Aus dem literarischen Jahr, Salon der Künste");
+  return "https://calendar.google.com/calendar/render?action=TEMPLATE"+
+    "&text="+encodeURIComponent((z.eig?"Schreibjahr: ":"")+z.n)+
+    "&dates="+st(von)+"/"+st(bis)+
+    "&details="+encodeURIComponent(text.join("\n"))+
+    "&location="+encodeURIComponent(z.o||"");
+}
 
 function zeichnen(){
   const paare=TERMINE.map((z,i)=>[z,i]).filter(([z])=>passt(z));
@@ -92,8 +91,8 @@ function zeichnen(){
           z.r&&!z.eig?" · "+esc(REG[z.r]||z.r):""}${z.zgt?" · "+esc(z.zgt):""}${
           z.no?" · "+esc(z.no):""}</div>
       </div>
-      <button class="lj-merk" onclick="ljMerken(${i})"
-        title="Diesen Termin in den eigenen Kalender legen">merken</button>
+      <a class="lj-merk" href="${esc(gcal(z))}" target="_blank" rel="noopener"
+        title="Diesen Termin in den eigenen Kalender legen">merken</a>
     </div>`;});
   ziel.innerHTML=h;
   document.getElementById("lj-zahl").textContent=paare.length;

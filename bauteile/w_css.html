@@ -7,20 +7,10 @@
   --serif:'Newsreader',Georgia,serif;
   --sans:'IBM Plex Sans Condensed','Helvetica Neue',Arial,sans-serif;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --grund:#191410; --karte:#231C16; --kante:#3B3027; --kante2:#57483C;
-  --tinte:#F1E7DA; --leise:#B8A895; --still:#8C7C6A;
-  --orange:#E8934F; --blau:#6FAAD6; --blau-hell:#1C3444; --orange-hell:#3B2917;
-  --gruen:#8FBF9C; --gruen-hell:#1E2E22;
-}}
-:root[data-theme="dark"]{
-  --grund:#191410; --karte:#231C16; --kante:#3B3027; --kante2:#57483C;
-  --tinte:#F1E7DA; --leise:#B8A895; --still:#8C7C6A;
-  --orange:#E8934F; --blau:#6FAAD6; --blau-hell:#1C3444; --orange-hell:#3B2917;
-  --gruen:#8FBF9C; --gruen-hell:#1E2E22;
-}
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
+/* Fest hell: das Widget folgt Patricks Seite, nicht dem Theme des Betrachters */
+:root{color-scheme:light}
 body{background:var(--grund);color:var(--tinte);font-family:var(--sans);
   font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
 #lj{display:flex;flex-direction:column;height:100vh;min-height:420px;

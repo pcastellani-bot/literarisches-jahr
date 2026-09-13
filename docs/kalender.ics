@@ -734,16 +734,6 @@ DESCRIPTION:Einreichfrist naht: Auslandstipendien Kanton Bern spartenübergreife
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:lj-e9f8569af147701b@salonderkuenste
-DTSTAMP:20260913T080000Z
-DTSTART;VALUE=DATE:20270101
-DTEND;VALUE=DATE:20270201
-SUMMARY:Schreibjahr: Das Schreibjahr 2027 beginnt
-DESCRIPTION:Kurs | https://salonderkuenste.com/schreibjahr-2027 | Aus dem Kalender des Salon der Kuenste
-LOCATION:Olten
-URL:https://salonderkuenste.com/schreibjahr-2027
-END:VEVENT
-BEGIN:VEVENT
 UID:lj-0401631121340324@salonderkuenste
 DTSTAMP:20260913T080000Z
 DTSTART;VALUE=DATE:20270101
@@ -754,12 +744,12 @@ LOCATION:Genève
 URL:https://m-r-l.ch/
 END:VEVENT
 BEGIN:VEVENT
-UID:lj-43828dc9c4b62703@salonderkuenste
+UID:lj-b1ef79ba80e6372f@salonderkuenste
 DTSTAMP:20260913T080000Z
-DTSTART;VALUE=DATE:20270121
-DTEND;VALUE=DATE:20270122
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
 SUMMARY:Schreibjahr: Einsendeschluss Bewerbung Schreibjahr 2027
-DESCRIPTION:Ausschreibung | Einreichfrist 2027-01-21 | ../00_Basis/ECKDATEN.md | Aus dem Kalender des Salon der Kuenste
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-01-24 | ../00_Basis/ECKDATEN.md | Aus dem Kalender des Salon der Kuenste
 LOCATION:Olten
 URL:../00_Basis/ECKDATEN.md
 BEGIN:VALARM
@@ -807,6 +797,16 @@ SUMMARY:20. Bieler Gespraeche / Rencontres de Bienne
 DESCRIPTION:Tagung | https://www.bielergespraeche.ch/de/aufruf-2027/ | Aus dem Kalender des Salon der Kuenste
 LOCATION:Biel
 URL:https://www.bielergespraeche.ch/de/aufruf-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-696e283fe6d97f05@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270208
+SUMMARY:Schreibjahr: Das Schreibjahr 2027 beginnt
+DESCRIPTION:Kurs | https://salonderkuenste.com/schreibjahr-2027 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Olten
+URL:https://salonderkuenste.com/schreibjahr-2027
 END:VEVENT
 BEGIN:VEVENT
 UID:lj-510660e2298d2044@salonderkuenste

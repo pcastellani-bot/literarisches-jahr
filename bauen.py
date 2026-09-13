@@ -78,8 +78,8 @@ def auswaehlen(rows):
     # Start und Ende des Jahrgangs. Die Abschlussklausur ist terminlich belegt,
     # die eingeladenen Verlage bleiben unerwaehnt.
     out.append({"n": "Das Schreibjahr 2027 beginnt", "t": "Kurs", "o": "Olten", "k": "SO",
-      "r": "DCH", "v": "2027-01-00", "s": "bestaetigt", "u": QUELLE, "eig": 1,
-      "no": "Auftaktklausur, zwei Tage. 14 Teilnehmende, zwölf Monate."})
+      "r": "DCH", "v": "2027-02-06", "b": "2027-02-07", "s": "bestaetigt", "u": QUELLE,
+      "eig": 1, "no": "Auftaktklausur, zwei Tage. 14 Teilnehmende, Februar bis Dezember."})
     out.append({"n": "Das Schreibjahr 2027 endet", "t": "Kurs", "o": "Holdenweid", "k": "BL",
       "r": "DCH", "v": "2027-12-11", "b": "2027-12-12", "s": "bestaetigt", "u": QUELLE,
       "eig": 1, "no": "Abschlussklausur, zwei Tage."})

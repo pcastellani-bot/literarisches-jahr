@@ -1,17 +1,26 @@
 <div id="lj">
-  <div class="lj-filter" id="lj-filter">
-    <button data-g="t" data-v="Festival" aria-pressed="false">Festivals</button>
-    <button data-g="t" data-v="Messe" aria-pressed="false">Messen</button>
-    <button data-g="t" data-v="Reihe" aria-pressed="false">Lesereihen</button>
-    <button data-g="t" data-v="Ausschreibung" aria-pressed="false">Ausschreibungen</button>
-    <button class="offen" data-g="x" data-v="offen" aria-pressed="false"
-      title="Ausschreibungen, für die keine Buchveröffentlichung verlangt wird">ohne Buchpublikation</button>
-    <button data-g="r" data-v="DCH" aria-pressed="false">Deutschschweiz</button>
-    <button data-g="r" data-v="FCH" aria-pressed="false">Romandie</button>
-    <button data-g="r" data-v="ICH" aria-pressed="false">Ticino</button>
+  <div class="lj-werkzeuge">
     <input class="lj-suche" id="lj-suche" type="search" placeholder="Ort oder Name suchen" aria-label="Termine durchsuchen">
     <a class="lj-abo" href="webcal://kalender.schreibjahr.ch/kalender.ics"
        title="Den ganzen Kalender im eigenen Programm abonnieren. Er aktualisiert sich von selbst.">Kalender abonnieren</a>
+  </div>
+
+  <div class="lj-filter" id="lj-filter">
+    <div class="lj-gruppe">
+      <button data-g="t" data-v="Festival" aria-pressed="false">Festivals</button>
+      <button data-g="t" data-v="Messe" aria-pressed="false">Messen</button>
+      <button data-g="t" data-v="Reihe" aria-pressed="false">Lesereihen</button>
+      <button data-g="t" data-v="Ausschreibung" aria-pressed="false">Ausschreibungen</button>
+    </div>
+    <div class="lj-gruppe">
+      <button data-g="r" data-v="DCH" aria-pressed="false">Deutschschweiz</button>
+      <button data-g="r" data-v="FCH" aria-pressed="false">Romandie</button>
+      <button data-g="r" data-v="ICH" aria-pressed="false">Ticino</button>
+    </div>
+    <div class="lj-gruppe">
+      <button class="offen" data-g="x" data-v="offen" aria-pressed="false"
+        title="Ausschreibungen, für die keine Buchveröffentlichung verlangt wird">ohne Buchpublikation</button>
+    </div>
   </div>
 
   <div class="lj-liste" id="lj-liste"></div>

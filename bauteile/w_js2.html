@@ -1,0 +1,144 @@
+<script>
+/* ------------------------------------------------------------------
+   Einstellungen. Nur dieser Block muss angepasst werden.
+   ------------------------------------------------------------------ */
+const KONFIG={
+  // Wohin die Anmeldung zur Fristen-Mail geht. Drei Möglichkeiten:
+  // 1. Leer lassen  -> die Adresse geht per postMessage an die Wix-Seite,
+  //    dort nimmt Velo sie entgegen (Code steht in EINBAU.md).
+  // 2. Eine URL     -> die Adresse wird als POST dorthin geschickt
+  //    (Formspree, Mailchimp, eigener Endpunkt).
+  // 3. Greift keines von beiden, führt der Knopf auf anmeldeSeite.
+  anmeldeZiel:"",
+  anmeldeSeite:"https://salonderkuenste.com/schreibjahr-2027",
+  stand:"13. September 2026",
+  // Vergangene Termine ausblenden. Ohne das zeigt der Kalender im Januar
+  // ein halbes Jahr Vergangenheit.
+  nurKommende:true
+};
+</script>
+<script>
+(function(){
+const MON=["Januar","Februar","März","April","Mai","Juni","Juli","August",
+  "September","Oktober","November","Dezember"];
+const TYP={Festival:"Festival",Messe:"Messe",Reihe:"Lesereihe",Markt:"Buchmarkt",
+  Tagung:"Tagung",Ausschreibung:"Ausschreibung",Preis:"Preis",Kurs:"Schreibjahr"};
+const REG={DCH:"Deutschschweiz",FCH:"Romandie",ICH:"Ticino",national:"schweizweit"};
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>
+  ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const teil=s=>String(s||"").split("-");
+const nurTag=s=>{const p=teil(s);return p[2]&&p[2]!=="00"?+p[2]:null;};
+const fristTxt=s=>{const p=teil(s);
+  return p[2]&&p[2]!=="00"?`${+p[2]}. ${MON[+p[1]-1]}`:MON[+p[1]-1]+" "+p[0];};
+const HEUTE=new Date();HEUTE.setHours(0,0,0,0);
+const endet=z=>{const p=teil(z.b||z.v);
+  const j=+p[0],m=+p[1]-1,t=p[2]&&p[2]!=="00"?+p[2]:new Date(j,m+1,0).getDate();
+  return new Date(j,m,t);};
+const zustand={t:new Set(),r:new Set(),x:new Set(),q:""};
+
+function passt(z){
+  if(KONFIG.nurKommende&&endet(z)<HEUTE)return false;
+  if(z.eig)return !zustand.x.size&&(!zustand.q||(z.n+z.o).toLowerCase().includes(zustand.q));
+  if(zustand.x.has("offen")&&z.zg!=="offen")return false;
+  if(zustand.t.size){
+    const gr=z.t==="Preis"?"Ausschreibung":(z.t==="Markt"?"Messe":(z.t==="Tagung"?"Reihe":z.t));
+    if(!zustand.t.has(gr))return false;}
+  if(zustand.r.size&&!zustand.r.has(z.r)&&z.r!=="national")return false;
+  if(zustand.q&&!(z.n+" "+z.o+" "+z.k+" "+(TYP[z.t]||"")).toLowerCase().includes(zustand.q))
+    return false;
+  return true;}
+
+/* Termin als .ics zum Mitnehmen */
+function merken(i){
+  const z=TERMINE[i],p=teil(z.v);
+  const j=+p[0],m=+p[1]-1,t=p[2]&&p[2]!=="00"?+p[2]:1;
+  const von=new Date(j,m,t),bis=endet(z);bis.setDate(bis.getDate()+1);
+  const st=d=>d.getFullYear()+String(d.getMonth()+1).padStart(2,"0")+String(d.getDate()).padStart(2,"0");
+  const cl=s=>String(s||"").replace(/\\/g,"\\\\").replace(/[,;]/g,x=>"\\"+x).replace(/\n/g," ");
+  const txt=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Salon der Kuenste//Literarisches Jahr//DE",
+    "BEGIN:VEVENT","UID:lj-"+i+"-"+z.v+"@salonderkuenste","DTSTAMP:"+st(HEUTE)+"T080000Z",
+    "DTSTART;VALUE=DATE:"+st(von),"DTEND;VALUE=DATE:"+st(bis),
+    "SUMMARY:"+cl(z.n),"LOCATION:"+cl(z.o),
+    "DESCRIPTION:"+cl((TYP[z.t]||z.t)+(z.f?", Einreichfrist "+fristTxt(z.f):"")+
+      (z.s!=="bestaetigt"?" (Termin noch nicht bestaetigt)":"")+" | "+z.u+
+      " | Aus dem Kalender des Salon der Kuenste"),
+    "URL:"+cl(z.u),"END:VEVENT","END:VCALENDAR"].join("\r\n");
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([txt],{type:"text/calendar;charset=utf-8"}));
+  a.download=z.n.replace(/[^\wäöüÄÖÜ -]/g,"").slice(0,50).trim()+".ics";
+  document.body.appendChild(a);a.click();
+  setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1000);}
+window.ljMerken=merken;
+
+function zeichnen(){
+  const paare=TERMINE.map((z,i)=>[z,i]).filter(([z])=>passt(z));
+  const ziel=document.getElementById("lj-liste");
+  if(!paare.length){ziel.innerHTML=
+    '<p class="lj-leer">Nichts gefunden. Filter zurücksetzen oder anders suchen.</p>';
+    document.getElementById("lj-zahl").textContent="0";return;}
+  let h="",letzter="";
+  paare.forEach(([z,i])=>{
+    const p=teil(z.v), schl=p[0]+"-"+p[1];
+    if(schl!==letzter){letzter=schl;
+      h+=`<div class="lj-monat">${MON[+p[1]-1]} <span>${p[0]}</span></div>`;}
+    const t1=nurTag(z.v), t2=z.b?nurTag(z.b):null;
+    const anderer=z.b&&teil(z.b)[1]!==p[1];
+    const datum=z.lauf?"":(t1?(t2&&(t2!==t1||anderer)
+      ?(anderer?`${t1}.${+p[1]}.–${t2}.${+teil(z.b)[1]}.`:`${t1}.–${t2}.`)
+      :`${t1}. ${MON[+p[1]-1].slice(0,3)}`):"");
+    const unfest=z.s!=="bestaetigt";
+    h+=`<div class="lj-eintrag${z.eig?" eigen":""}">
+      <div class="lj-tag">${datum||(z.lauf?"":"—")}${
+        z.lauf?'<em>laufend</em>':(datum?"":'<em>im Monat</em>')}${
+        datum&&unfest?'<em>ungefähr</em>':""}</div>
+      <div class="lj-was">
+        <a class="titel" href="${esc(z.u)}" target="_blank" rel="noopener">${esc(z.n)}</a>${
+          z.f?`<span class="lj-marke frist">bis ${esc(fristTxt(z.f))}</span>`:""}${
+          z.zg==="offen"?'<span class="lj-marke offen">ohne Buchpublikation</span>':""}${
+          unfest?'<span class="lj-marke unfest">noch nicht bestätigt</span>':""}
+        <div class="lj-meta">${esc(TYP[z.t]||z.t)}${z.o?" · "+esc(z.o):""}${
+          z.r&&!z.eig?" · "+esc(REG[z.r]||z.r):""}${z.zgt?" · "+esc(z.zgt):""}${
+          z.no?" · "+esc(z.no):""}</div>
+      </div>
+      <button class="lj-merk" onclick="ljMerken(${i})"
+        title="Diesen Termin in den eigenen Kalender legen">merken</button>
+    </div>`;});
+  ziel.innerHTML=h;
+  document.getElementById("lj-zahl").textContent=paare.length;
+  if(window.parent!==window)window.parent.postMessage(
+    {typ:"literarischesJahr",hoehe:document.body.scrollHeight},"*");}
+
+/* Fristen-Mail */
+document.getElementById("lj-form").addEventListener("submit",e=>{
+  e.preventDefault();
+  const feld=document.getElementById("lj-adresse"), adresse=feld.value.trim();
+  if(!adresse)return;
+  const fertig=()=>{document.getElementById("lj-mail").innerHTML=
+    '<h3>Danke</h3><p class="danke">Du bekommst die nächste Fristenübersicht Anfang des Monats.</p>';};
+  if(KONFIG.anmeldeZiel){
+    fetch(KONFIG.anmeldeZiel,{method:"POST",headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({email:adresse,quelle:"Literarisches Jahr"})})
+      .then(fertig).catch(()=>{feld.value="";
+        alert("Das hat gerade nicht geklappt. Bitte später nochmals versuchen.");});
+  }else if(window.parent!==window){
+    window.parent.postMessage({typ:"literarischesJahr",aktion:"anmeldung",email:adresse},"*");
+    fertig();
+  }else{window.open(KONFIG.anmeldeSeite,"_blank","noopener");}
+});
+
+document.getElementById("lj-filter").addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b)return;
+  const an=b.getAttribute("aria-pressed")==="true";
+  an?zustand[b.dataset.g].delete(b.dataset.v):zustand[b.dataset.g].add(b.dataset.v);
+  b.setAttribute("aria-pressed",String(!an));zeichnen();});
+document.getElementById("lj-suche").addEventListener("input",e=>{
+  zustand.q=e.target.value.trim().toLowerCase();zeichnen();});
+
+document.getElementById("lj-stand").textContent=
+  "Angaben ohne Gewähr, Stand "+KONFIG.stand+". Termine bitte beim Veranstalter prüfen.";
+/* Der Filter erscheint erst, wenn die Zugangsdaten wirklich im Bestand sind */
+if(!TERMINE.some(z=>z.zg==="offen"))
+  document.querySelector('[data-v="offen"]').remove();
+zeichnen();
+})();
+</script>

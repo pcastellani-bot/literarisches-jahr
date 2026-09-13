@@ -1,0 +1,36 @@
+name: Kalender bauen
+
+# Laeuft, sobald sich kalender.csv oder ein Bauteil aendert — egal ob die
+# Aenderung aus dem Browser, vom Mac oder vom Recherche-Agenten kommt.
+on:
+  push:
+    branches: [main]
+    paths: ['termine.csv', 'bauteile/**', 'bauen.py']
+  workflow_dispatch:        # erlaubt den Lauf auch von Hand ueber die Actions-Seite
+
+permissions:
+  contents: write
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Aus kalender.csv alles erzeugen
+        run: python3 bauen.py
+
+      - name: Ergebnis zuruecklegen
+        run: |
+          git config user.name  "Kalender-Automatik"
+          git config user.email "actions@github.com"
+          git add docs/
+          if git diff --staged --quiet; then
+            echo "Nichts geaendert, kein Commit noetig."
+          else
+            git commit -m "Kalender neu gebaut ($(date +%d.%m.%Y))"
+            git push
+          fi

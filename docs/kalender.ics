@@ -1,0 +1,1566 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Salon der Kuenste//Literarisches Jahr//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Das literarische Jahr
+X-WR-CALDESC:Festivals, Messen, Lesereihen und Ausschreibungen der Schweiz. Zusammengetragen vom Salon der Kuenste.
+X-WR-TIMEZONE:Europe/Zurich
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:lj-d5160ffb8209b47d@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20270215
+SUMMARY:Fondation Jan Michalski – Programme et expositions
+DESCRIPTION:Reihe | https://fondation-janmichalski.com/en/agenda | Aus dem Kalender des Salon der Kuenste
+LOCATION:Montricher
+URL:https://fondation-janmichalski.com/en/agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-6279269bd6d5831d@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Kostenlose Manuskriptprüfung Schweizer Literaturgesellschaft
+DESCRIPTION:Ausschreibung | https://literaturgesellschaft.ch/buch-veroeffentlichen/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zug
+URL:https://literaturgesellschaft.ch/buch-veroeffentlichen/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-425122eb8cff6fa7@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Kornhausbibliotheken Bern
+DESCRIPTION:Reihe | https://www.kob.ch/agenda/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://www.kob.ch/agenda/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-177980db3e87c993@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261104
+SUMMARY:LIT – Das Literaturhaus Graubünden
+DESCRIPTION:Reihe | https://lithaus.gr/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Chur
+URL:https://lithaus.gr/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-101c0cccad9167e1@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261129
+SUMMARY:Literaturhaus Liechtenstein
+DESCRIPTION:Reihe | https://www.literaturhaus.li/?page=1 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Schaan
+URL:https://www.literaturhaus.li/?page=1
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-bcfa0a222ad06560@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20270202
+SUMMARY:Literaturhaus Schreibgruppe (Wyborada)
+DESCRIPTION:Reihe | https://www.wyborada.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:St. Gallen
+URL:https://www.wyborada.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-1c6dcbae4eec657a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261209
+SUMMARY:Literarische Lesungen des Collegium generale
+DESCRIPTION:Reihe | https://www.unibe.ch/universitaet/universitaet_fuer_alle/collegium_generale/literarische_lesungen/index_ger.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://www.unibe.ch/universitaet/universitaet_fuer_alle/collegium_generale/literarische_lesungen/index_ger.html
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-737dce3df72ba9f0@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Literaturclub SRF 1
+DESCRIPTION:Reihe | https://www.fernsehserien.de/literaturclub/sendetermine/srf1 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://www.fernsehserien.de/literaturclub/sendetermine/srf1
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-4e68f9fd5213a4c8@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261012
+SUMMARY:Frankfurter Buchmesse 2026
+DESCRIPTION:Messe | https://www.sbvv.ch/omsStart/202/8/Frankfurter%20Buchmesse | Aus dem Kalender des Salon der Kuenste
+LOCATION:Frankfurt am Main
+URL:https://www.sbvv.ch/omsStart/202/8/Frankfurter%20Buchmesse
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-2d1bbeecf14bdbec@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Netzwerk Erzählcafé Schweiz
+DESCRIPTION:Reihe | https://netzwerk-erzaehlcafe.ch/agenda/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://netzwerk-erzaehlcafe.ch/agenda/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-67ffd576af40f616@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261206
+SUMMARY:Casa della Letteratura per la Svizzera italiana
+DESCRIPTION:Reihe | https://www.casadellaletteratura.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Lugano
+URL:https://www.casadellaletteratura.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-eb7f9bac4fd145df@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Kaufleuten Literatur
+DESCRIPTION:Reihe | https://kaufleuten.ch/events/kultur/literatur/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://kaufleuten.ch/events/kultur/literatur/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-eed6d69237384fe5@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20270524
+SUMMARY:Literaturhaus Zürich
+DESCRIPTION:Reihe | https://literaturhaus.ch/programm/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://literaturhaus.ch/programm/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-a21b33fe4f6af179@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Recherchestipendium Atelier X
+DESCRIPTION:Ausschreibung | Einreichfrist 2026-10-12 | Buchpublikation verlangt | https://www.aks-stiftung.ch/AtelierX | Aus dem Kalender des Salon der Kuenste
+LOCATION:Luzern
+URL:https://www.aks-stiftung.ch/AtelierX
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Recherchestipendium Atelier X
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-ca7153ac12f8d846@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20270113
+SUMMARY:Erzählcafé Bibliothek Münstergasse
+DESCRIPTION:Reihe | https://www.ub.unibe.ch/teilbibliotheken/bibliothek_muenstergasse/erzaehlcaf/index_ger.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://www.ub.unibe.ch/teilbibliotheken/bibliothek_muenstergasse/erzaehlcaf/index_ger.html
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-d03e5fe8d3dcfb63@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Literaturhaus Basel
+DESCRIPTION:Reihe | https://www.literaturhaus-basel.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://www.literaturhaus-basel.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-6486fb499bf1e017@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261203
+SUMMARY:LiteraturGesellschaft Luzern
+DESCRIPTION:Reihe | https://www.literaturgesellschaft-lu.ch/programm | Aus dem Kalender des Salon der Kuenste
+LOCATION:Luzern
+URL:https://www.literaturgesellschaft-lu.ch/programm
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-5b2e25e5cb40764a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:Aargauer Literaturhaus Lenzburg (Müllerhaus)
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://www.aargauer-literaturhaus.ch/veranstaltungen-datenbank | Aus dem Kalender des Salon der Kuenste
+LOCATION:Lenzburg
+URL:https://www.aargauer-literaturhaus.ch/veranstaltungen-datenbank
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-b61f16e298facde3@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:Bibliotheken Schaffhausen
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://bibliotheken-schaffhausen.ch/de/veranstaltungen/erwachsene/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Schaffhausen
+URL:https://bibliotheken-schaffhausen.ch/de/veranstaltungen/erwachsene/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-2b2f5487bdd2010c@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:Café Littéraire in der Buchhandlung Schreiber
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://www.bibliothekolten.ch/aktuell/veranstaltungen | Aus dem Kalender des Salon der Kuenste
+LOCATION:Olten
+URL:https://www.bibliothekolten.ch/aktuell/veranstaltungen
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-db8d66b8337f5b33@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:Erzählcafé Stadtbibliothek Olten
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://www.bibliothekolten.ch/aktuell/news | Aus dem Kalender des Salon der Kuenste
+LOCATION:Olten
+URL:https://www.bibliothekolten.ch/aktuell/news
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-58b37464647571af@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:Société de Lecture de Genève – saison littéraire
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://www.societe-de-lecture.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Genève
+URL:https://www.societe-de-lecture.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-be9e3aa4689abae3@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Unruhe über Mittag (Literaturhaus Zürich)
+DESCRIPTION:Reihe | https://literaturhaus.ch/programm/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://literaturhaus.ch/programm/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-26d40c150c8d494a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:co-writing-room und Lit-Club (Literaturhaus Liechtenstein)
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://www.literaturhaus.li/?page=1 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Schaan
+URL:https://www.literaturhaus.li/?page=1
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-c60ca8fd0191f69a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+SUMMARY:lit.z Literaturhaus Zentralschweiz
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://www.lit-z.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Stans
+URL:https://www.lit-z.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-62f7b9921b1b4f08@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261019
+SUMMARY:Literaturtage Zofingen 2026
+DESCRIPTION:Festival | https://literaturtagezofingen.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zofingen
+URL:https://literaturtagezofingen.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-dd9d5d4713dac17b@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Sofalesungen.ch
+DESCRIPTION:Reihe | https://www.literaturhaus-basel.ch/de/projekte/sofalesungench/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://www.literaturhaus-basel.ch/de/projekte/sofalesungench/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-58d1c357e6202659@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Castelli di carta – Concorso letterario
+DESCRIPTION:Preis | https://www.castellidicarta.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bellinzona
+URL:https://www.castellidicarta.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-18861ec1ef56195f@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261026
+SUMMARY:Zuerich liest 26
+DESCRIPTION:Festival | https://www.zuerich-liest.ch/zhl/veranstalten | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zuerich
+URL:https://www.zuerich-liest.ch/zhl/veranstalten
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-f4b283af169761c2@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261204
+SUMMARY:Literaturhaus Thurgau / Bodmanhaus
+DESCRIPTION:Reihe | https://literaturhausthurgau.ch/programm/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Gottlieben
+URL:https://literaturhausthurgau.ch/programm/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-7924ccb8fd4983bb@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261025
+SUMMARY:woerdz - Das Spoken Word Festival
+DESCRIPTION:Festival | https://woerdz.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Luzern
+URL:https://woerdz.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-fb54196339f79c71@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Wortreich Buchhandlung und Antiquariat
+DESCRIPTION:Reihe | https://www.kulturbuchhandlung.ch/lesungen/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Glarus
+URL:https://www.kulturbuchhandlung.ch/lesungen/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-32d4b642d84b4222@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261026
+SUMMARY:Festival Rilke 2026 – Locarno / Ascona
+DESCRIPTION:Festival | https://www.fondationrilke.ch/actualites/festival-rilke-2026 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Locarno
+URL:https://www.fondationrilke.ch/actualites/festival-rilke-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-b2c1009051be206f@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261102
+SUMMARY:10. Weinfelder Buchtage
+DESCRIPTION:Festival | https://buchtage.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Weinfelden
+URL:https://buchtage.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-7db615e59a76c518@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261202
+SUMMARY:COALMINE Café Winterthur
+DESCRIPTION:Reihe | https://www.coalmine.ch/programm/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Winterthur
+URL:https://www.coalmine.ch/programm/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-2c950728c0fb6d7c@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261202
+SUMMARY:Literarische Vereinigung Winterthur
+DESCRIPTION:Reihe | https://dieliterarische.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Winterthur
+URL:https://dieliterarische.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-2ab7e032317c9d1b@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Literaturhaus & Bibliothek Wyborada St. Gallen
+DESCRIPTION:Reihe | https://www.wyborada.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:St. Gallen
+URL:https://www.wyborada.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-f1da5d18c679fe2c@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261109
+SUMMARY:Burgdorfer Krimitage 2026 FILZ
+DESCRIPTION:Festival | https://www.krimitage.ch/krimitage2026/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Burgdorf
+URL:https://www.krimitage.ch/krimitage2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-9992850b582e1ea6@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Projektbeiträge Literatur Kanton Zürich
+DESCRIPTION:Ausschreibung | Einreichfrist 2026-10-31 | an Wohnsitz gebunden | https://www.zh.ch/de/sport-kultur/kultur/kulturfoerderung/kulturschaffende-projekte/literatur.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://www.zh.ch/de/sport-kultur/kultur/kulturfoerderung/kulturschaffende-projekte/literatur.html
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Projektbeiträge Literatur Kanton Zürich
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-53fbfb6035810082@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261129
+SUMMARY:Textcafé (Literaturhaus Wyborada)
+DESCRIPTION:Reihe | https://www.wyborada.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:St. Gallen
+URL:https://www.wyborada.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-38abda8fe6316241@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Wettbewerb tête-à-tête Kulturvermittlung
+DESCRIPTION:Ausschreibung | Einreichfrist 2026-10-31 | Buchpublikation verlangt | https://www.kultur.bkd.be.ch/de/start/themen/kulturfoerderung/aktuelle-ausschreibungen-kulturfoerderung.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://www.kultur.bkd.be.ch/de/start/themen/kulturfoerderung/aktuelle-ausschreibungen-kulturfoerderung.html
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Wettbewerb tête-à-tête Kulturvermittlung
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-126754fab2abbf21@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261215
+SUMMARY:Bibliothek Hauptpost (Kantons- und Stadtbibliothek St. Gallen)
+DESCRIPTION:Reihe | https://www.bibliosg.ch/home/veranstaltungen/agenda.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:St. Gallen
+URL:https://www.bibliosg.ch/home/veranstaltungen/agenda.html
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-f292523167e03c0e@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261116
+SUMMARY:Schaffhauser Buchwoche 2026
+DESCRIPTION:Festival | https://www.schaffhauserbuchwoche.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Schaffhausen
+URL:https://www.schaffhauserbuchwoche.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-b1c5ce0dc6cf26c4@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261109
+SUMMARY:Dis da litteratura 2026 per a per
+DESCRIPTION:Festival | https://www.disdalitteratura.ch/de/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Chur
+URL:https://www.disdalitteratura.ch/de/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-d8341a5e2cc49afa@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261109
+SUMMARY:HPM26 Buch- und Druckkunst-Messe Frauenfeld
+DESCRIPTION:Messe | https://www.buch-und-druckkunst-messe.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Frauenfeld
+URL:https://www.buch-und-druckkunst-messe.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-7c49ea43460242cc@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:Croque-Livres Festival
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.webliterra.ch/rendez-vous-litteraires-romands/festivals-et-salons/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Genève
+URL:https://www.webliterra.ch/rendez-vous-litteraires-romands/festivals-et-salons/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-62974d8028999f76@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Salon des Petits Éditeurs
+DESCRIPTION:Messe | https://www.petitsediteurs.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Chêne-Bougeries
+URL:https://www.petitsediteurs.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-a97db7b5d37d08ad@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Schreibjahr: Vorbereitungstag Schreibjahr 1
+DESCRIPTION:Kurs | ../00_Basis/ECKDATEN.md | Aus dem Kalender des Salon der Kuenste
+LOCATION:Olten
+URL:../00_Basis/ECKDATEN.md
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-01179d74bcdd7549@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:Internationales Literaturfestival BuchBasel
+DESCRIPTION:Festival | https://www.buchbasel.ch/de/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://www.buchbasel.ch/de/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-6d83356cba4f7819@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Buchmesse Fantastica St. Gallen 2026
+DESCRIPTION:Messe | https://fantastica-stgallen.ch/aussteller/anmelden/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:St. Gallen
+URL:https://fantastica-stgallen.ch/aussteller/anmelden/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-851ab77da803d15f@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Verleihung des Schweizer Buchpreis 2026
+DESCRIPTION:Preis | nur über Verlage | https://www.sbvv.ch/agenda/3/%C3%9Cber%20uns/Agenda | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://www.sbvv.ch/agenda/3/%C3%9Cber%20uns/Agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-0a1051b48b48033d@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:Lesestadt Aadorf
+DESCRIPTION:Festival | https://www.lesestadtaadorf.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Aadorf
+URL:https://www.lesestadtaadorf.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-750590ce2288b11e@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261130
+SUMMARY:BUCH WIEN 2026
+DESCRIPTION:Messe | https://www.sbvv.ch/fairDetail/203/8/BUCH%20WIEN | Aus dem Kalender des Salon der Kuenste
+LOCATION:Wien
+URL:https://www.sbvv.ch/fairDetail/203/8/BUCH%20WIEN
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-cd2fbafba0689b65@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:18. Schweizer Symposium fuer literarische Uebersetzer*innen
+DESCRIPTION:Tagung | https://www.a-d-s.ch/uebersetzer-innensymposium/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://www.a-d-s.ch/uebersetzer-innensymposium/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-72d5476e7a6b9347@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:kulturtipp Ausgabe 26/26
+DESCRIPTION:Reihe | https://www.kimedia.ch/fileadmin/content/kimedia/Mediadaten_aktuell/D-Mediadaten-Kulturtipp_aktuell.pdf | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://www.kimedia.ch/fileadmin/content/kimedia/Mediadaten_aktuell/D-Mediadaten-Kulturtipp_aktuell.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-f6d9924615bb2e43@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:Festival Rilke 2026 – Sierre / Muzot / Rarogne
+DESCRIPTION:Festival | https://www.fondationrilke.ch/actualites/festival-rilke-2026 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Sierre
+URL:https://www.fondationrilke.ch/actualites/festival-rilke-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-1cb554cfeb91becd@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Schreibjahr: Vorbereitungstag Schreibjahr 2
+DESCRIPTION:Kurs | ../00_Basis/ECKDATEN.md | Aus dem Kalender des Salon der Kuenste
+LOCATION:Olten
+URL:../00_Basis/ECKDATEN.md
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-e95721d002bf567d@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:edicion
+DESCRIPTION:Messe | Termin noch nicht bestaetigt | https://www.webliterra.ch/rendez-vous-litteraires-romands/festivals-et-salons/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Biel/Bienne
+URL:https://www.webliterra.ch/rendez-vous-litteraires-romands/festivals-et-salons/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-f4cc7a3fc8363ac4@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Werk- Mentoring- Entwicklungs- und Publikationsbeiträge Fachausschuss Literatur BS/BL
+DESCRIPTION:Ausschreibung | Einreichfrist 2026-12-15 | Buchpublikation verlangt | https://www.bs.ch/pd/kultur/kulturfoerderung/projekt-und-programmfoerderung/literatur | Aus dem Kalender des Salon der Kuenste
+LOCATION:Liestal
+URL:https://www.bs.ch/pd/kultur/kulturfoerderung/projekt-und-programmfoerderung/literatur
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Werk- Mentoring- Entwicklungs- und Publikationsbei
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-09820c4090b7152a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:PROZ Agenda - Veranstaltungseingabe Ausgabe Januar 2027
+DESCRIPTION:Reihe | https://www.proz.online/download/Content_attachments/FileBaseDoc/PROZ-Tarife.pdf | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://www.proz.online/download/Content_attachments/FileBaseDoc/PROZ-Tarife.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-bf93deb1595dfc31@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:PROZ Angebotsseite Kurse Workshops Reisen
+DESCRIPTION:Reihe | https://www.proz.online/download/Content_attachments/FileBaseDoc/PROZ-Tarife.pdf | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://www.proz.online/download/Content_attachments/FileBaseDoc/PROZ-Tarife.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-0b496e7e5e437802@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:PROZ Kulturszene-Beitrag und Inserat Ausgabe Januar 2027
+DESCRIPTION:Reihe | https://www.proz.online/download/Content_attachments/FileBaseDoc/PROZ-Mediadaten.pdf | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://www.proz.online/download/Content_attachments/FileBaseDoc/PROZ-Mediadaten.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-1adf9379b9df5592@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Prix Vanil Noir
+DESCRIPTION:Ausschreibung | Einreichfrist 2026-12-29 | https://www.webliterra.ch/concours-litteraires/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Fribourg
+URL:https://www.webliterra.ch/concours-litteraires/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Prix Vanil Noir
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-bd1eaa06dd37f8d1@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Prix d'Écriture de la ville de Gruyères
+DESCRIPTION:Ausschreibung | Einreichfrist 2026-12-31 | https://www.webliterra.ch/concours-litteraires/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Gruyères
+URL:https://www.webliterra.ch/concours-litteraires/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Prix d'Écriture de la ville de Gruyères
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-da1caaf98c8d06b5@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Berner Schreibstipendien
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-01-08 | Buchpublikation verlangt | https://www.kultur.bkd.be.ch/de/start/themen/kulturfoerderung/aktuelle-ausschreibungen-kulturfoerderung.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://www.kultur.bkd.be.ch/de/start/themen/kulturfoerderung/aktuelle-ausschreibungen-kulturfoerderung.html
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Berner Schreibstipendien
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-abf911d9523df162@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Schreibjahr: Vorbereitungstag Schreibjahr 3
+DESCRIPTION:Kurs | ../00_Basis/ECKDATEN.md | Aus dem Kalender des Salon der Kuenste
+LOCATION:Olten
+URL:../00_Basis/ECKDATEN.md
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-52ad7897074aa7c2@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Freiraum Projektbeitrag Druckkostenbeitrag Programmbeitrag Literatur Kanton Aargau
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-01-10 | Buchpublikation verlangt | https://www.aargauerkuratorium.ch/termine/literatur | Aus dem Kalender des Salon der Kuenste
+LOCATION:Aarau
+URL:https://www.aargauerkuratorium.ch/termine/literatur
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Freiraum Projektbeitrag Druckkostenbeitrag Program
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-cdc9fec763ebb74e@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:Auslandstipendien Kanton Bern spartenübergreifend
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-01-11 | Buchpublikation verlangt | https://www.kultur.bkd.be.ch/de/start/themen/kulturfoerderung/aktuelle-ausschreibungen-kulturfoerderung.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://www.kultur.bkd.be.ch/de/start/themen/kulturfoerderung/aktuelle-ausschreibungen-kulturfoerderung.html
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Auslandstipendien Kanton Bern spartenübergreifend
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-e9f8569af147701b@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:Schreibjahr: Das Schreibjahr 2027 beginnt
+DESCRIPTION:Kurs | https://salonderkuenste.com/schreibjahr-2027 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Olten
+URL:https://salonderkuenste.com/schreibjahr-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-0401631121340324@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+SUMMARY:Résidences littéraires 2027 – Maison Rousseau et Littérature
+DESCRIPTION:Ausschreibung | an Wohnsitz gebunden | Termin noch nicht bestaetigt | https://m-r-l.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Genève
+URL:https://m-r-l.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-43828dc9c4b62703@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Schreibjahr: Einsendeschluss Bewerbung Schreibjahr 2027
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-01-21 | ../00_Basis/ECKDATEN.md | Aus dem Kalender des Salon der Kuenste
+LOCATION:Olten
+URL:../00_Basis/ECKDATEN.md
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Einsendeschluss Bewerbung Schreibjahr 2027
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-c46a56c4cd6aad55@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270201
+SUMMARY:23. Internationales Lyrikfestival Basel
+DESCRIPTION:Festival | https://lyrikfestival-basel.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://lyrikfestival-basel.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-3fc0fa04f99933a8@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Le Roman des Romands
+DESCRIPTION:Preis | Buchpublikation verlangt | https://romandesromands.ch/editions/edition-2026-2027/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Sion
+URL:https://romandesromands.ch/editions/edition-2026-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-46374aaa8346e125@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270202
+SUMMARY:BZ-Boerse 2027
+DESCRIPTION:Messe | https://www.buchzentrum.ch/de/buchzentrum/fuer-buchhandlungen_1/dienstleistungen/BZ-Boerse | Aus dem Kalender des Salon der Kuenste
+LOCATION:Olten
+URL:https://www.buchzentrum.ch/de/buchzentrum/fuer-buchhandlungen_1/dienstleistungen/BZ-Boerse
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-a3b010baea65349a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270208
+SUMMARY:20. Bieler Gespraeche / Rencontres de Bienne
+DESCRIPTION:Tagung | https://www.bielergespraeche.ch/de/aufruf-2027/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Biel
+URL:https://www.bielergespraeche.ch/de/aufruf-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-510660e2298d2044@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:Ateliers Kanton Aargau Sparte Literatur
+DESCRIPTION:Ausschreibung | Buchpublikation verlangt | Termin noch nicht bestaetigt | https://www.aargauerkuratorium.ch/termine/literatur | Aus dem Kalender des Salon der Kuenste
+LOCATION:Aarau
+URL:https://www.aargauerkuratorium.ch/termine/literatur
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-5d7730b4ddeb4df0@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Kantonaler Werkbeitrag St. Gallen Sparte Literatur
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-02-20 | an Wohnsitz gebunden | https://www.sg.ch/kultur/kulturfoerderung/foerderung-beantragen/werkbeitraege.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:St. Gallen
+URL:https://www.sg.ch/kultur/kulturfoerderung/foerderung-beantragen/werkbeitraege.html
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Kantonaler Werkbeitrag St. Gallen Sparte Literatur
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-30518e46c1603404@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270301
+SUMMARY:Prix Ahmadou Kourouma
+DESCRIPTION:Preis | Einreichfrist 2026-11-12 | nur über Verlage | Termin noch nicht bestaetigt | https://salondulivre.ch/espace-pro/prix-kourouma/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Le Grand-Saconnex (Genève)
+URL:https://salondulivre.ch/espace-pro/prix-kourouma/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Prix Ahmadou Kourouma
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-9eb34c614eae18d7@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270301
+SUMMARY:Salon du livre de Genève
+DESCRIPTION:Messe | https://www.palexpo.ch/evenement/salon-du-livre-2027/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Le Grand-Saconnex (Genève)
+URL:https://www.palexpo.ch/evenement/salon-du-livre-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-04e45507a3b0989f@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270301
+SUMMARY:Textures – Rencontres littéraires
+DESCRIPTION:Festival | https://www.unifr.ch/llf/fr/news-et-events/evenements/?eventid=19244 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Fribourg
+URL:https://www.unifr.ch/llf/fr/news-et-events/evenements/?eventid=19244
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-37a45e98b3cb9dab@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:KINDER LESEN 2027 - Kinder- und Jugendbuchfestival Zuerich
+DESCRIPTION:Messe | https://www.kinderlesen.ch/anmelden | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zuerich
+URL:https://www.kinderlesen.ch/anmelden
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-0c39a046a65e51f3@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Kreationsbeitrag Literatur
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-03-01 | Buchpublikation verlangt | https://prohelvetia.ch/de/foerderung-finden/kreationsbeitrag-literatur/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://prohelvetia.ch/de/foerderung-finden/kreationsbeitrag-literatur/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Kreationsbeitrag Literatur
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-8a49e5bb233a4651@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270308
+SUMMARY:22. Thuner Literaturfestival Literaare
+DESCRIPTION:Festival | https://www.literaare.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Thun
+URL:https://www.literaare.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-75a130a899e87cd7@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270308
+SUMMARY:Wortlaut - St.Galler Literaturfestival
+DESCRIPTION:Festival | https://www.wortlaut.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:St. Gallen
+URL:https://www.wortlaut.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-d4769c56930fc38a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270315
+SUMMARY:BiblioWeekend 2027
+DESCRIPTION:Reihe | https://www.bibliosuisse.ch/aktivitaten/biblioweekend | Aus dem Kalender des Salon der Kuenste
+LOCATION:Aarau
+URL:https://www.bibliosuisse.ch/aktivitaten/biblioweekend
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-8bc892731ad8efeb@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270401
+SUMMARY:Antiquariats-Messe Zuerich 2027
+DESCRIPTION:Messe | Termin noch nicht bestaetigt | http://www.vebuku.ch/144.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zuerich
+URL:http://www.vebuku.ch/144.html
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-a0adfd40fdcbbad3@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270401
+SUMMARY:Das Narr - Doppelter Open Call Ausgabe 50
+DESCRIPTION:Ausschreibung | Einreichfrist 2026-12-15 | Termin noch nicht bestaetigt | https://dasnarr.ch/opencall/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://dasnarr.ch/opencall/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Das Narr - Doppelter Open Call Ausgabe 50
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-5475963101c3a8e6@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270401
+SUMMARY:Erzaehlzeit ohne Grenzen Singen-Schaffhausen
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://erzaehlzeit.com/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Schaffhausen
+URL:https://erzaehlzeit.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-7044c1d65597d503@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270401
+SUMMARY:Festival aller↔retour
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://chstiftung.ch/fr/aller-retour/le-festival | Aus dem Kalender des Salon der Kuenste
+LOCATION:Fribourg
+URL:https://chstiftung.ch/fr/aller-retour/le-festival
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-e3ae0e378bc13da4@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270401
+SUMMARY:Lesefestival Kreuzlingen 2027
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://phtg.ch/veranstaltungen/lesefestival | Aus dem Kalender des Salon der Kuenste
+LOCATION:Kreuzlingen
+URL:https://phtg.ch/veranstaltungen/lesefestival
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-3f801f229bf696ea@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270401
+SUMMARY:Wettbewerb für professionelles Kulturschaffen grosse Projekte Graubünden
+DESCRIPTION:Ausschreibung | Buchpublikation verlangt | Termin noch nicht bestaetigt | https://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/kfg/kulturfoerderung/wpk/Seiten/default.aspx | Aus dem Kalender des Salon der Kuenste
+LOCATION:Chur
+URL:https://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/kfg/kulturfoerderung/wpk/Seiten/default.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-f50d657d69155605@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270322
+SUMMARY:Eventi letterari Monte Verità
+DESCRIPTION:Festival | https://www.eventiletterari.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Ascona
+URL:https://www.eventiletterari.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-bb020c7975c7e13a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270322
+SUMMARY:Leipziger Buchmesse 2027
+DESCRIPTION:Messe | https://www.leipziger-buchmesse.de/en/visit/information-for-visitors/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Leipzig
+URL:https://www.leipziger-buchmesse.de/en/visit/information-for-visitors/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-0bd6789135b21ed0@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270322
+SUMMARY:Premio Enrico Filippini
+DESCRIPTION:Preis | Bedingungen unklar | Termin noch nicht bestaetigt | https://eventiletterari.ch/premioef-25-it/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Ascona
+URL:https://eventiletterari.ch/premioef-25-it/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-ed727e530ec48e41@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270322
+SUMMARY:Schweizer Gemeinschaftsstand SBVV/SWIPS an der Leipziger Buchmesse 2027
+DESCRIPTION:Messe | Termin noch nicht bestaetigt | https://www.sbvv.ch/omsStart/199/8/Leipziger%20Buchmesse | Aus dem Kalender des Salon der Kuenste
+LOCATION:Leipzig
+URL:https://www.sbvv.ch/omsStart/199/8/Leipziger%20Buchmesse
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-bd6263f7d7af9ff0@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Phantastik-Tage 2027
+DESCRIPTION:Festival | https://www.aargauer-literaturhaus.ch/veranstaltungen | Aus dem Kalender des Salon der Kuenste
+LOCATION:Lenzburg
+URL:https://www.aargauer-literaturhaus.ch/veranstaltungen
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-8c14d85034902332@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270409
+SUMMARY:Bologna Children's Book Fair 2027
+DESCRIPTION:Messe | https://www.bolognachildrensbookfair.com/en/home/878.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bologna
+URL:https://www.bolognachildrensbookfair.com/en/home/878.html
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-aec54dbbdbd57557@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20271027
+SUMMARY:Lesekreis GdSL 2027 - Lorenz Langenegger & Micha Friemel
+DESCRIPTION:Reihe | https://literaturblatt.ch/veranstaltungen/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Amriswil
+URL:https://literaturblatt.ch/veranstaltungen/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-c628a00cac61efe4@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270501
+SUMMARY:Aprillen - Das Berner Lesefest
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.aprillen.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://www.aprillen.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-9c2af7bd911cb249@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270501
+SUMMARY:Foire du Livre
+DESCRIPTION:Messe | Termin noch nicht bestaetigt | https://www.foiredulivre.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Peseux (Neuchâtel)
+URL:https://www.foiredulivre.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-4eee3f63de11d82d@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270501
+SUMMARY:Förderpreise des Kantons Solothurn
+DESCRIPTION:Preis | mit Altersgrenze | Termin noch nicht bestaetigt | https://so.ch/verwaltung/departement-fuer-bildung-kultur-und-sport/amt-fuer-kultur-und-sport/aktuell/aktuell/news/foerderpreise-2026-und-atelierstipendien-paris-2027-ausgeschrieben/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Solothurn
+URL:https://so.ch/verwaltung/departement-fuer-bildung-kultur-und-sport/amt-fuer-kultur-und-sport/aktuell/aktuell/news/foerderpreise-2026-und-atelierstipendien-paris-2027-ausgeschrieben/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-f93cbffd28e2cc0a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270501
+SUMMARY:Global Book Crawl Switzerland 2027
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://bookcrawl.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zuerich
+URL:https://bookcrawl.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-8441833b6f062bc4@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270502
+SUMMARY:Printemps de la poésie
+DESCRIPTION:Festival | https://printempspoesie.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Lausanne
+URL:https://printempspoesie.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-7e45a0b380d6af4f@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270426
+SUMMARY:Festival Histoire et Cité
+DESCRIPTION:Festival | https://www.unil.ch/news/fr/1787645068977 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Genève
+URL:https://www.unil.ch/news/fr/1787645068977
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-26f793e602b35a32@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270502
+SUMMARY:Bern liest ein Buch 2027
+DESCRIPTION:Festival | https://bernliesteinbuch.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://bernliesteinbuch.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-0a7ecf59ef89c9ee@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Werkbeitrag Literatur Kanton Zürich
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-04-30 | an Wohnsitz gebunden | https://www.zh.ch/de/sport-kultur/kultur/kulturfoerderung/kulturschaffende-projekte/literatur.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://www.zh.ch/de/sport-kultur/kultur/kulturfoerderung/kulturschaffende-projekte/literatur.html
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Werkbeitrag Literatur Kanton Zürich
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-96b9a5b0f4c81f59@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270510
+SUMMARY:Solothurner Literaturtage / Journées Littéraires de Soleure
+DESCRIPTION:Festival | https://www.literatur.ch/de/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Solothurn
+URL:https://www.literatur.ch/de/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-3242dbbc9a8e49b1@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270601
+SUMMARY:ChiassoLetteraria
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://chiassoletteraria.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Chiasso
+URL:https://chiassoletteraria.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-92670fe3ae04caa1@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270601
+SUMMARY:OpenNet — Schreibwettbewerb der Solothurner Literaturtage
+DESCRIPTION:Ausschreibung | Termin noch nicht bestaetigt | https://www.literatur.ch/de/opennet/ausschreibung/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Solothurn
+URL:https://www.literatur.ch/de/opennet/ausschreibung/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-e500760b28c00334@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:Literatur und Musik mit Zora del Buono (Literaturhaus Zürich)
+DESCRIPTION:Reihe | https://literaturhaus.ch/programm/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://literaturhaus.ch/programm/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-7719df9bcb722d3f@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:Werkbeitrag Literatur Kanton Aargau
+DESCRIPTION:Ausschreibung | Buchpublikation verlangt | Termin noch nicht bestaetigt | https://www.aargauerkuratorium.ch/termine/literatur | Aus dem Kalender des Salon der Kuenste
+LOCATION:Aarau
+URL:https://www.aargauerkuratorium.ch/termine/literatur
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-7e83d38ba8dbfae0@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270614
+SUMMARY:Allpages Festival
+DESCRIPTION:Festival | https://allpagesfestival.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Anzère (Ayent)
+URL:https://allpagesfestival.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-b879201e422b3661@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270701
+SUMMARY:Chilometro zero
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://www4.ti.ch/decs/dcsu/osservatorio/agenda-culturale/cerca-evento/dettaglio/108397/chilometro_zero_scritture_a_confronto | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bellinzona
+URL:https://www4.ti.ch/decs/dcsu/osservatorio/agenda-culturale/cerca-evento/dettaglio/108397/chilometro_zero_scritture_a_confronto
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-8fdfcf638f5eb9d3@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270701
+SUMMARY:Literatur Open Air Liestal
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.kbl.ch/alle-veranstaltungen/literaturopenairliestal | Aus dem Kalender des Salon der Kuenste
+LOCATION:Liestal
+URL:https://www.kbl.ch/alle-veranstaltungen/literaturopenairliestal
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-a9470cfccc02ea42@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270701
+SUMMARY:Masterclass Literaturhaus Zürich 2027
+DESCRIPTION:Ausschreibung | mit Altersgrenze | Termin noch nicht bestaetigt | https://literaturhaus.ch/masterclass/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://literaturhaus.ch/masterclass/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-a0cf87785e857b65@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270701
+SUMMARY:PenArosa Writer in Residence
+DESCRIPTION:Ausschreibung | Einreichfrist 2026-11-30 | https://www.a-d-s.ch/foerderungen/ausschreibungen/?article=writer_in_residence_100_tage_im_aroser_bergsommer | Aus dem Kalender des Salon der Kuenste
+LOCATION:Arosa
+URL:https://www.a-d-s.ch/foerderungen/ausschreibungen/?article=writer_in_residence_100_tage_im_aroser_bergsommer
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: PenArosa Writer in Residence
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-a037df975e9d6423@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270701
+SUMMARY:Poestate
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.poestate.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Lugano
+URL:https://www.poestate.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-968560f210b526a3@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270701
+SUMMARY:Preis des Schweizer Buchhandels / SBVV-Generalversammlung 2027
+DESCRIPTION:Preis | nur über Verlage | Termin noch nicht bestaetigt | https://www.sbvv.ch/preis-schweizer-buchhandel | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://www.sbvv.ch/preis-schweizer-buchhandel
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-139d2eb8d3398b47@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270701
+SUMMARY:Résidence d'écrivain – Château de Lavigny
+DESCRIPTION:Ausschreibung | Einreichfrist 2026-10-15 | Buchpublikation verlangt | Termin noch nicht bestaetigt | http://www.chateaudelavigny.ch/rsidence-dcrivain | Aus dem Kalender des Salon der Kuenste
+LOCATION:Lavigny
+URL:http://www.chateaudelavigny.ch/rsidence-dcrivain
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Résidence d'écrivain – Château de Lavigny
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-6698201b83b91971@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270701
+SUMMARY:Résidences pour écrivains – Fondation Jan Michalski
+DESCRIPTION:Ausschreibung | Termin noch nicht bestaetigt | https://fondation-janmichalski.com/en/residences | Aus dem Kalender des Salon der Kuenste
+LOCATION:Montricher
+URL:https://fondation-janmichalski.com/en/residences
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-4a983d0c3933ae30@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270628
+SUMMARY:31. Internationales Literaturfestival Leukerbad
+DESCRIPTION:Festival | https://literaturfestival.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Leukerbad
+URL:https://literaturfestival.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-336184920c647635@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Generalversammlung ProLitteris 2027
+DESCRIPTION:Tagung | https://prolitteris.ch/aktuelles/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zuerich
+URL:https://prolitteris.ch/aktuelles/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-124634e94877c71a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270801
+SUMMARY:Literaturfestival Zuerich
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.literaturfestivalzuerich.com/besuch | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zuerich
+URL:https://www.literaturfestivalzuerich.com/besuch
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-887bdce0623d68d8@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270801
+SUMMARY:Seetaler Poesiesommer
+DESCRIPTION:Reihe | Termin noch nicht bestaetigt | https://poesiesommer.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Hochdorf
+URL:https://poesiesommer.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-1e65a0f07a3433cf@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270901
+SUMMARY:Festival internazionale di narrazione – Arzo
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.festivaldinarrazione.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Arzo (Mendrisio)
+URL:https://www.festivaldinarrazione.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-36d8fe92f24a3af2@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270830
+SUMMARY:Fête du Livre de St-Pierre-de-Clages
+DESCRIPTION:Markt | https://www.village-du-livre.ch/fr/la-fete-du-livre/la-fete-du-livre-952/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Saint-Pierre-de-Clages (Chamoson)
+URL:https://www.village-du-livre.ch/fr/la-fete-du-livre/la-fete-du-livre-952/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-2d248bab6bb47739@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:Beiträge an Lesungen von Literaturpreisträgerinnen und -preisträgern Kanton Bern
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-08-31 | nur über Verlage | https://www.kultur.bkd.be.ch/de/start/themen/kulturfoerderung/aktuelle-ausschreibungen-kulturfoerderung/beitraege-an-veranstaltungen-mit-literaturpreistraegerinnen-und-.html | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bern
+URL:https://www.kultur.bkd.be.ch/de/start/themen/kulturfoerderung/aktuelle-ausschreibungen-kulturfoerderung/beitraege-an-veranstaltungen-mit-literaturpreistraegerinnen-und-.html
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Beiträge an Lesungen von Literaturpreisträgerinnen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-04aaad17893d75d0@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270906
+SUMMARY:Le livre sur les quais
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.swissinfo.ch/fre/le-livre-sur-les-quais-s%C3%A9duit-avec-sa-nouvelle-formule/92012884 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Morges
+URL:https://www.swissinfo.ch/fre/le-livre-sur-les-quais-s%C3%A9duit-avec-sa-nouvelle-formule/92012884
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-c703149fdf7dbf18@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20271001
+SUMMARY:Babel. Festival di letteratura e traduzione
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.babelfestival.com/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Bellinzona
+URL:https://www.babelfestival.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-c9943adba7ddaad6@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20271001
+SUMMARY:Bachelor Literarisches Schreiben - Anmeldung Studienjahr 2027/28
+DESCRIPTION:Ausschreibung | Einreichfrist 2027-03-15 | https://www.hkb.bfh.ch/de/studium/bachelor/literarisches-schreiben/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Biel
+URL:https://www.hkb.bfh.ch/de/studium/bachelor/literarisches-schreiben/
+BEGIN:VALARM
+TRIGGER:-P14D
+ACTION:DISPLAY
+DESCRIPTION:Einreichfrist naht: Bachelor Literarisches Schreiben - Anmeldung Studi
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-6702b1f217455083@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20271001
+SUMMARY:SIKJM-Jahrestagung 2027
+DESCRIPTION:Tagung | Termin noch nicht bestaetigt | https://sikjm.ch/lesen-foerdern/weiterbildung/jahrestagung-aktuell/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zuerich
+URL:https://sikjm.ch/lesen-foerdern/weiterbildung/jahrestagung-aktuell/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-90847a6f24655101@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:Bodensee-Buchmesse 2027 (BBM27)
+DESCRIPTION:Messe | https://www.bodensee-buchmesse.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Konstanz
+URL:https://www.bodensee-buchmesse.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-e6e96f5eb45a4955@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271011
+SUMMARY:Frankfurter Buchmesse 2027
+DESCRIPTION:Messe | Termin noch nicht bestaetigt | https://www.messen.de/de/10211/frankfurt-am-main/frankfurter-buchmesse/info | Aus dem Kalender des Salon der Kuenste
+LOCATION:Frankfurt am Main
+URL:https://www.messen.de/de/10211/frankfurt-am-main/frankfurter-buchmesse/info
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-4d69487b96c86b9e@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271101
+SUMMARY:Literaturtage Zofingen 2027
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://literaturtagezofingen.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zofingen
+URL:https://literaturtagezofingen.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-fd7f83ac344534d1@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271101
+SUMMARY:VorSatz — Schreibwettbewerb von Zürich liest
+DESCRIPTION:Ausschreibung | Termin noch nicht bestaetigt | https://www.zuerich-liest.ch/vorsatz | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zürich
+URL:https://www.zuerich-liest.ch/vorsatz
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-3be1f98d380fe55b@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271101
+SUMMARY:Weinfelder Buchtage 2027
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://buchtage.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Weinfelden
+URL:https://buchtage.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-21a04d506269fc49@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271101
+SUMMARY:Zuerich liest 27
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.zuerich-liest.ch/zhl/veranstalten | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zuerich
+URL:https://www.zuerich-liest.ch/zhl/veranstalten
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-bc631c225e44cb56@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271201
+SUMMARY:Abraxas - Zentralschweizer Kinder- und Jugendliteratur-Festival Zug
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.abraxas-festival.ch/leitbild | Aus dem Kalender des Salon der Kuenste
+LOCATION:Zug
+URL:https://www.abraxas-festival.ch/leitbild
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-100cf6ddc34b95d5@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271201
+SUMMARY:BUCH WIEN 2027
+DESCRIPTION:Messe | Termin noch nicht bestaetigt | https://www.sbvv.ch/fairDetail/203/8/BUCH%20WIEN | Aus dem Kalender des Salon der Kuenste
+LOCATION:Wien
+URL:https://www.sbvv.ch/fairDetail/203/8/BUCH%20WIEN
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-714d94d3761a9e63@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271201
+SUMMARY:Dis da litteratura 2027
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.disdalitteratura.ch/de/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Chur
+URL:https://www.disdalitteratura.ch/de/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-c3ff5e1e1f77612c@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271201
+SUMMARY:Internationales Literaturfestival BuchBasel
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.buchbasel.ch/de/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://www.buchbasel.ch/de/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-3e06ecd9a05fd18a@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271201
+SUMMARY:Schaffhauser Buchwoche 2027
+DESCRIPTION:Festival | Termin noch nicht bestaetigt | https://www.schaffhauserbuchwoche.ch/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Schaffhausen
+URL:https://www.schaffhauserbuchwoche.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-826d15192055d9bd@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271201
+SUMMARY:Schweizer Buchpreis SBP — Anmeldung der Verlage
+DESCRIPTION:Preis | nur über Verlage | Termin noch nicht bestaetigt | https://schweizerbuchpreis.ch/charta/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://schweizerbuchpreis.ch/charta/
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-80983cd2ceb99df5@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271201
+SUMMARY:Verleihung des Schweizer Buchpreis 2027
+DESCRIPTION:Preis | nur über Verlage | Termin noch nicht bestaetigt | https://www.sbvv.ch/agenda/3/%C3%9Cber%20uns/Agenda | Aus dem Kalender des Salon der Kuenste
+LOCATION:Basel
+URL:https://www.sbvv.ch/agenda/3/%C3%9Cber%20uns/Agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-775166bfc86c9824@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20271211
+DTEND;VALUE=DATE:20271213
+SUMMARY:Schreibjahr: Das Schreibjahr 2027 endet
+DESCRIPTION:Kurs | https://salonderkuenste.com/schreibjahr-2027 | Aus dem Kalender des Salon der Kuenste
+LOCATION:Holdenweid
+URL:https://salonderkuenste.com/schreibjahr-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:lj-7c4832a2e3e5d971@salonderkuenste
+DTSTAMP:20260913T080000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280201
+SUMMARY:Atelierstipendium Cité Internationale des Arts Paris Kanton Solothurn
+DESCRIPTION:Ausschreibung | an Wohnsitz gebunden | Termin noch nicht bestaetigt | https://so.ch/verwaltung/departement-fuer-bildung-kultur-und-sport/amt-fuer-kultur-und-sport/aktuell/aktuell/news/foerderpreise-2026-und-atelierstipendien-paris-2027-ausgeschrieben/ | Aus dem Kalender des Salon der Kuenste
+LOCATION:Solothurn
+URL:https://so.ch/verwaltung/departement-fuer-bildung-kultur-und-sport/amt-fuer-kultur-und-sport/aktuell/aktuell/news/foerderpreise-2026-und-atelierstipendien-paris-2027-ausgeschrieben/
+END:VEVENT
+END:VCALENDAR

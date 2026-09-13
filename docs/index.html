@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Das literarische Jahr — Salon der Künste</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap">
+<style>
+:root{--grund:#FFF7EB;--karte:#FFFCF6;--kante:#E7DBC8;--kante2:#CDBBA0;
+  --tinte:#2A211B;--leise:#6E5E4F;--still:#9A8873;--orange:#CC6E25;--blau:#005081;
+  --serif:'Newsreader',Georgia,serif;
+  --sans:'IBM Plex Sans Condensed','Helvetica Neue',Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --grund:#191410;--karte:#231C16;--kante:#3B3027;--kante2:#57483C;
+  --tinte:#F1E7DA;--leise:#B8A895;--still:#8C7C6A;--orange:#E8934F;--blau:#6FAAD6}}
+*{box-sizing:border-box}
+body{background:var(--grund);color:var(--tinte);font-family:var(--sans);
+  font-size:15px;line-height:1.5;margin:0;padding:40px 20px 60px}
+main{max-width:640px;margin:0 auto}
+h1{font-family:var(--serif);font-weight:500;font-size:32px;margin:0 0 6px;
+  letter-spacing:-.015em;line-height:1.1}
+.unter{color:var(--leise);font-size:14px;margin:0 0 28px}
+h2{font-family:var(--serif);font-size:17px;font-weight:600;margin:26px 0 6px}
+p{margin:0 0 10px;color:var(--leise);font-size:14px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;
+  background:var(--karte);border:1px solid var(--kante);padding:2px 6px;border-radius:2px;
+  color:var(--tinte);word-break:break-all}
+.knopf{display:inline-block;font-size:14px;font-weight:500;padding:8px 18px;margin:4px 6px 4px 0;
+  border:1px solid var(--blau);background:var(--blau);color:#fff;text-decoration:none;border-radius:2px}
+.knopf:hover{background:var(--tinte);border-color:var(--tinte)}
+.knopf.leer{background:transparent;color:var(--blau)}
+.knopf.leer:hover{background:var(--blau);color:#fff}
+iframe{width:100%;height:640px;border:1px solid var(--kante2);border-radius:2px;
+  margin-top:10px;background:var(--karte)}
+footer{margin-top:34px;padding-top:14px;border-top:1px solid var(--kante);
+  font-size:12px;color:var(--still)}
+footer a{color:var(--still)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Das literarische Jahr</h1>
+  <p class="unter">153 Termine der Schweizer Literaturszene bis Dezember 2027.
+    Festivals, Messen, Lesereihen und Ausschreibungen, jeder Eintrag mit Quelle.
+    Zusammengetragen vom Salon der Künste. Stand 13. September 2026.</p>
+
+  <a class="knopf" href="literarisches-jahr.html">Kalender öffnen</a>
+  <a class="knopf leer" href="kalender.ics">Abonnieren</a>
+
+  <h2>In die eigene Website einbauen</h2>
+  <p>Diesen Code in einen HTML-Baustein setzen, in Wix unter
+    Hinzufügen, Einbetten, HTML einbetten:</p>
+  <p><code>&lt;iframe src="https://pcastellani-bot.github.io/literarisches-jahr/literarisches-jahr.html"
+    width="100%" height="800" style="border:0" title="Das literarische Jahr"&gt;&lt;/iframe&gt;</code></p>
+
+  <h2>Abonnieren</h2>
+  <p>Wer den Kalender im eigenen Programm haben will, abonniert diese Adresse.
+    Sie aktualisiert sich von selbst:</p>
+  <p><code>webcal://pcastellani-bot.github.io/literarisches-jahr/kalender.ics</code></p>
+
+  <iframe src="literarisches-jahr.html" title="Vorschau des Kalenders"></iframe>
+
+  <footer>
+    Angaben ohne Gewähr. Termine bitte beim Veranstalter prüfen.
+    <a href="https://salonderkuenste.com/schreibjahr-2027">Das Schreibjahr 2027</a>
+  </footer>
+</main>
+</body>
+</html>

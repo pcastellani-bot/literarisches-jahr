@@ -27,7 +27,8 @@ body{background:var(--grund);color:var(--tinte);font-family:var(--sans);
 .lj-filter button:focus-visible{outline:2px solid var(--blau);outline-offset:1px}
 .lj-filter button.offen[aria-pressed="true"]{background:var(--gruen);border-color:var(--gruen);
   color:#fff}
-.lj-suche{font-family:var(--sans);font-size:13px;padding:4px 10px;flex:1;min-width:130px;
+.lj-suche{font-family:var(--sans);font-size:13px;padding:4px 10px;
+  flex:0 1 230px;min-width:150px;
   border:1px solid var(--kante2);background:var(--karte);color:var(--tinte);border-radius:2px}
 .lj-suche:focus{outline:none;border-color:var(--blau)}
 
@@ -76,8 +77,9 @@ body{background:var(--grund);color:var(--tinte);font-family:var(--sans);
 .lj-merk:hover{border-color:var(--blau);color:var(--blau)}
 .lj-merk:focus-visible{outline:2px solid var(--blau);outline-offset:1px}
 
-.lj-eintrag.eigen{background:var(--orange-hell);padding-left:11px;padding-right:11px;
-  border-bottom-color:var(--orange);border-left:3px solid var(--orange)}
+.lj-eintrag.eigen{background:var(--orange-hell);border-bottom-color:var(--orange);
+  box-shadow:inset 3px 0 0 var(--orange)}
+.lj-eintrag.eigen .lj-tag,.lj-eintrag.eigen .lj-was{padding-left:11px}
 .lj-eintrag.eigen .lj-tag{color:var(--orange)}
 .lj-eintrag.eigen .lj-was a.titel{font-weight:600}
 .lj-eintrag.eigen .lj-meta{color:var(--tinte)}

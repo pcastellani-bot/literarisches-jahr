@@ -41,6 +41,9 @@ def main():
         if r.get("deadline_typ") == "Drucktermin" or "[B abgeleitet" in r.get("notiz", ""):
             e["deadline_aktion"], e["deadline_typ"] = "", ""
             raus += 1
+        # Interne Dateipfade sind auf der Website tote Links
+        if e["url"].startswith("..") or e["url"].endswith(".md"):
+            e["url"] = "https://schreibjahr.ch"
         n = MARKER.sub("", INTERN_TXT.sub("", e["notiz"])).strip(" .")
         e["notiz"] = " ".join(n.split())
         out.append(e)

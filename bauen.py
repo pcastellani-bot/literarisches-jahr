@@ -15,7 +15,7 @@ import csv, json, datetime, hashlib, pathlib, sys
 
 HIER = pathlib.Path(__file__).parent
 HEUTE = datetime.date.today()
-QUELLE = "https://salonderkuenste.com/schreibjahr-2027"
+QUELLE = "https://schreibjahr.ch"
 ADRESSE = "kalender.schreibjahr.ch"   # eigene Subdomain, verbirgt die GitHub-Herkunft
 
 # --- Was oeffentlich wird -------------------------------------------------

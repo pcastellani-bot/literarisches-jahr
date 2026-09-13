@@ -4,7 +4,7 @@ Terminkalender der Schweizer Literaturszene bis Dezember 2027, als Baustein für
 [schreibjahr.ch](https://salonderkuenste.com/schreibjahr-2027).
 Ein Projekt des Salon der Künste.
 
-**Live:** https://pcastellani-bot.github.io/literarisches-jahr/
+**Live:** https://kalender.schreibjahr.ch/
 
 ## Wie es funktioniert
 

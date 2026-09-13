@@ -96,6 +96,7 @@ function zeichnen(){
     </div>`;});
   ziel.innerHTML=h;
   document.getElementById("lj-zahl").textContent=paare.length;
+  setTimeout(hinweis,0);
   if(window.parent!==window)window.parent.postMessage(
     {typ:"literarischesJahr",hoehe:document.body.scrollHeight},"*");}
 
@@ -107,6 +108,15 @@ document.getElementById("lj-filter").addEventListener("click",e=>{
   b.setAttribute("aria-pressed",String(!an));zeichnen();});
 document.getElementById("lj-suche").addEventListener("input",e=>{
   zustand.q=e.target.value.trim().toLowerCase();zeichnen();});
+
+/* Der Hinweis verschwindet, sobald man unten angekommen ist */
+const liste=document.getElementById("lj-liste"), mehr=document.getElementById("lj-mehr");
+function hinweis(){
+  const rest=liste.scrollHeight-liste.scrollTop-liste.clientHeight;
+  mehr.hidden = rest < 24;
+}
+liste.addEventListener("scroll",hinweis,{passive:true});
+window.addEventListener("resize",hinweis);
 
 document.getElementById("lj-stand").textContent=
   "Angaben ohne Gewähr, Stand "+KONFIG.stand+". Termine bitte beim Veranstalter prüfen.";
